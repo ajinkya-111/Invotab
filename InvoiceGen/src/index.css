@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+button{
+ user-select: none;
+}
+
+label{
+    margin-bottom: 0.2rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+     color: #383838;
+}
+input,textarea{
+ background-color: #f1f1f1;
+color: #616161;
+padding: 0.5rem;
+border-radius: 0.2rem;
+margin-bottom: 2rem;
+
+}
+
+.footer li{
+    margin: 0.5rem 0.2rem;
+}
